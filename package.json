@@ -14,13 +14,13 @@
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.2.0",
-    "styled-components": "^4.4.1",
-    "typescript": "^3.9.6"
+    "styled-components": "^4.4.1"
   },
   "devDependencies": {
     "@types/react-router-dom": "^5.1.5",
     "@types/styled-components": "^4.4.3",
-    "cross-env": "^6.0.3"
+    "cross-env": "^6.0.3",
+    "typescript": "^3.6.5"
   },
   "scripts": {
     "start": "cross-env NODE_PATH=src/ && react-scripts start",

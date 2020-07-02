@@ -13,10 +13,10 @@ import { useMemberDispatch, useMemberState } from 'contexts/MemberContext';
 
 import misaeError from 'assets/img/misae-error.png';
 
-import sendSlackMessage from 'services/sendSlackMessage';
+// import sendSlackMessage from 'services/sendSlackMessage';
 import COLORS from 'assets/colors';
 
-const { REACT_APP_SLACK_PASSWORD: slackPassword } = process.env;
+// const { REACT_APP_SLACK_PASSWORD: slackPassword } = process.env;
 
 const BottomWrapper = styled.div`
   display: flex;
@@ -25,13 +25,13 @@ const BottomWrapper = styled.div`
   justify-content: flex-end;
 `;
 
-const LabelWrapper = styled.div`
-  font-size: 1.25rem;
-`;
+// const LabelWrapper = styled.div`
+//   font-size: 1.25rem;
+// `;
 
-const InputWrapper = styled.input`
-  font-size: 1.25rem;
-`;
+// const InputWrapper = styled.input`
+//   font-size: 1.25rem;
+// `;
 
 const MatchPage: React.FC = () => {
   const dispatch = useMemberDispatch();
@@ -40,20 +40,20 @@ const MatchPage: React.FC = () => {
     // eslint-disable-next-line
   }, []);
 
-  const [password, setPassword] = useState('');
+  // const [password, setPassword] = useState('');
 
-  const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-    setPassword(event.target.value);
-  };
+  // const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+  //   setPassword(event.target.value);
+  // };
 
-  const handleSendSlack = () => {
-    if (password !== slackPassword) {
-      alert('비밀번호가 달라요.');
-      return;
-    }
-    sendSlackMessage(matchedMembers);
-    alert('Slack으로 결과를 전송했어요.');
-  };
+  // const handleSendSlack = () => {
+  //   if (password !== slackPassword) {
+  //     alert('비밀번호가 달라요.');
+  //     return;
+  //   }
+  //   sendSlackMessage(matchedMembers);
+  //   alert('Slack으로 결과를 전송했어요.');
+  // };
 
   const directAccess = useMemberState(state => state.directAccess);
   const matchedMembers = useMemberState(state => state.matchedMembers);
