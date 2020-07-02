@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.146b0016.chunk.css",
+    "main.js": "/static/js/main.426e1e8d.chunk.js",
+    "main.js.map": "/static/js/main.426e1e8d.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.46803dce.js",
+    "runtime-main.js.map": "/static/js/runtime-main.46803dce.js.map",
+    "static/js/2.3d548339.chunk.js": "/static/js/2.3d548339.chunk.js",
+    "static/js/2.3d548339.chunk.js.map": "/static/js/2.3d548339.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.548306c575c7e2f3288b14a4a716e02c.js": "/precache-manifest.548306c575c7e2f3288b14a4a716e02c.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.146b0016.chunk.css.map": "/static/css/main.146b0016.chunk.css.map",
+    "static/media/Claire.png": "/static/media/Claire.1a2ab600.png",
+    "static/media/Crystal.png": "/static/media/Crystal.0951ee0f.png",
+    "static/media/David.png": "/static/media/David.c674109c.png",
+    "static/media/George.png": "/static/media/George.0622eda8.png",
+    "static/media/Grace.png": "/static/media/Grace.4d08164f.png",
+    "static/media/HJ.png": "/static/media/HJ.bcf7ae79.png",
+    "static/media/Haritson.png": "/static/media/Haritson.e114a73c.png",
+    "static/media/Henry.png": "/static/media/Henry.07b27013.png",
+    "static/media/Hugh.png": "/static/media/Hugh.55fa830a.png",
+    "static/media/misae-error.png": "/static/media/misae-error.5184ac9c.png",
+    "static/media/yoon.png": "/static/media/yoon.34b2975e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.46803dce.js",
+    "static/js/2.3d548339.chunk.js",
+    "static/css/main.146b0016.chunk.css",
+    "static/js/main.426e1e8d.chunk.js"
+  ]
+}
