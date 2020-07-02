@@ -63,12 +63,12 @@ const InitPage: React.FC = () => {
   return (
     <PageTemplate>
       <MemberList
-        title="참석하는 휴먼"
+        title="참석쓰 >ㅇ<"
         members={joinMembers}
         clickable={true}
       />
       <MemberList
-        title="참석하지 않는 휴먼"
+        title="늦참쓰 ~ㅇ~"
         members={absentMembers}
         clickable={true}
       />
@@ -84,7 +84,7 @@ const InitPage: React.FC = () => {
           <option value="round">반올림해서</option>
         </SelectWrapper>
         <Link to="/match">
-          <Button color={COLORS.BLUE[6]}>돌리기</Button>
+          <Button color={COLORS.BLUE[6]}>돌려~</Button>
         </Link>
       </BottomWrapper>
       <Modal>
