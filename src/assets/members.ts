@@ -4,7 +4,7 @@ import Member from 'types/Member';
 export const getInitialMembersState: () => Member[] = () => {
   const images = importAll(require.context('./img/members', false, /\.(png|jpe?g|svg)$/));
 
-  const names = ["수정", "윤서", "성준", "원진", "효정", "원준", "탐", "진영", "홍덕", "나윤"]
+  const names = ["수정", "윤서", "성준", "원진", "효정", "원준", "탐", "홍덕", "아람", "나윤"]
   return images.map((image, i) => {
     const name = names[i];
     return { name, image, absent: false };
